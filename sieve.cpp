@@ -37,13 +37,6 @@ void sieve(int n)
 int main()
 {
     sieve(100);
-
-    for(int i = 1; i <= 100; i++)
-        cout <<"I " << i <<" "<<mark[i] << endl;
-
-    cout << endl;
-    cout << endl;
-    for(int i = 1; prime[i] != 0; i++)
-        cout << "Prime"<<prime[i] << endl;
+    
     return 0;
 }
