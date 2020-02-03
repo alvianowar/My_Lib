@@ -3,7 +3,7 @@
 using namespace std;
 
 int prime[10000009];
-int mark[10000009];
+bool mark[10000009];
 
 void sieve(int n)
 {
